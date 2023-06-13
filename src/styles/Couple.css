@@ -1,11 +1,11 @@
 /* Big Screens */
 #couple {
-    background: rgb(255, 175, 189);
-    background: linear-gradient(
-        145deg,
-        rgba(255, 175, 189, 1) 10%,
-        rgba(255, 195, 160, 1) 50%,
-        rgba(255, 175, 189, 1) 90%
+    background: #0093e9db;
+    background-image: linear-gradient(
+        159deg,
+        #80d0c7 30%,
+        #0093e9db 60%,
+        #80d0c7 85%
     );
 }
 
@@ -16,9 +16,9 @@
 
 #couple .title-quote {
     padding-bottom: 15px;
-    border-bottom: 2px solid #8d0054;
+    border-bottom: 2px solid #001224;
     font-family: "Great Vibes", cursive;
-    color: #781d42;
+    color: #001224;
 }
 
 #couple .row {
@@ -39,7 +39,7 @@
 
 #couple .img-wrapper {
     display: inline-block;
-    border: 5px solid #8d0054;
+    border: 5px solid #001224;
     border-radius: 50%;
     padding: 10px;
     width: 80%;
@@ -48,7 +48,7 @@
 
 #couple .couple-img {
     width: 100%;
-    border: 2px solid #8d0054;
+    border: 2px solid #001224;
     border-radius: 50%;
 }
 
@@ -74,7 +74,7 @@
 }
 
 #couple .info h3 {
-    color: #781d42;
+    color: #001224;
     font-weight: 700;
 }
 
@@ -83,7 +83,7 @@
 }
 
 #couple .info p {
-    color: #781d42;
+    color: #001224;
     margin: 0px;
 }
 
@@ -92,13 +92,13 @@
     right: -20px;
 }
 .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238d005480' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2300122460' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 .carousel-control-prev {
     left: -20px;
 }
 .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238d005480' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2300122460' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
 .carousel-indicators {
     bottom: -50px;
@@ -107,10 +107,10 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #8d005480;
+    background-color: #00122480;
 }
 .carousel-indicators .active {
-    background-color: #8d0054;
+    background-color: #001224;
 }
 
 /* Tablet Wide Screens */

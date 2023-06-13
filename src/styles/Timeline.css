@@ -1,7 +1,7 @@
 /* Big Screens */
 #timeline {
     padding: 7% 7%;
-    color: #8d0054;
+    color: #001224;
     background: url("../../public/assets/images/bg-img-2.jpg") repeat fixed 0%;
     box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.492);
 }
@@ -12,11 +12,11 @@
 }
 
 .multi-timeline .left {
-    border-right: 1.5px solid #c40878;
+    border-right: 1.5px solid #001224;
 }
 
 .multi-timeline .right {
-    border-left: 1.5px solid #c40878;
+    border-left: 1.5px solid #001224;
 }
 
 .multi-timeline h1 {
@@ -33,7 +33,7 @@
 
 .multi-timeline p {
     font-size: 1.25rem;
-    color: #781d42;
+    color: #001224;
     line-height: 1.4;
 }
 /* Multi - Timeline - end */
@@ -41,14 +41,14 @@
 /* Single - Timeline - start */
 /* #timeline {
     padding: 7% 7%;
-    color: #781d42;
+    color: #001224;
     background: url("../../public/assets/images/bg-img-2.jpg") repeat fixed 0%;
     text-shadow: 1px 1px 5px #c4c4c4;
 } */
 
 .single-timeline .wrapper {
     display: block;
-    border: 10px solid #8d0054;
+    border: 10px solid #001224;
     border-radius: 5px;
 }
 
@@ -56,7 +56,7 @@
     display: block;
     margin: 10px;
     padding: 3% 10%;
-    border: 2px solid #8d0054;
+    border: 2px solid #001224;
     border-radius: 5px;
 }
 
@@ -79,7 +79,7 @@
 
 .single-timeline p {
     font-size: 1.25rem;
-    color: #781d42;
+    color: #001224;
     line-height: 1.4;
 }
 /* Single - Timeline - end */

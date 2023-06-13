@@ -228,7 +228,7 @@ function Couple() {
                         </div>
                         <div className="info bride-info">
                             <h3>
-                                Rubina Begum
+                                Rubina Begum{" "}
                                 <sub>B.Sc.,</sub>
                             </h3>
                             {/* <p className="mt-2 mt-lg-3">
