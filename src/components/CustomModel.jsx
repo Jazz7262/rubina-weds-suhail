@@ -64,7 +64,7 @@ function CustomModel1() {
             <div className="card-outer-wrapper">
                 <div className="card-inner-wrapper">
                     <div className="card-content">
-                        <h1 className="card-title m-2">Wedding Invitation</h1>
+                        <h1 className="card-title m-0">Wedding Invitation</h1>
                         <img
                             src="../assets/images/line-divider.png"
                             alt="line_divider"
@@ -74,9 +74,8 @@ function CustomModel1() {
                         <h4 className="invitor-name mb-5">
                             Mrs. & Mr. Zafrulla
                         </h4>
-
                         <button
-                            className="btn btn-primary open-button"
+                            className="btn btn-primary"
                             onClick={handleClick}
                         >
                             Open

@@ -4,11 +4,9 @@
     position: fixed;
     z-index: 10;
     overflow: hidden;
-    background-color: #56ccf2;
-    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+    background-color: rgb(255, 175, 189);
 }
 
-/* 
 #preloader::before {
     content: "";
     width: 200%;
@@ -22,22 +20,22 @@
         rgba(255, 255, 255, 0) 100%
     );
     opacity: 0.15;
-} */
+}
 
-/* 
 #preloader::after {
     content: "";
+    width: 200%;
+    height: 200%;
     position: fixed;
     top: -50px;
     left: -50px;
-    background: linear-gradient(
-        125deg,
-        #2f80ed 15%,
-        #56ccf2 35%,
-        #56ccf2 65%,
-        #2f80ed
+    background: radial-gradient(
+        circle,
+        rgb(255, 255, 255) 0%,
+        rgba(255, 255, 255, 0) 100%
     );
-} */
+    opacity: 0.15;
+}
 
 .preloader-wrapper {
     width: 60px;
@@ -46,12 +44,11 @@
     top: calc(50% - 30px);
     left: calc(50% - 30px);
     border: 5px solid transparent;
-    border-top-color: #001224;
-    border-bottom-color: #001224;
+    border-top-color: #781D42;
+    border-bottom-color: #781D42;
     border-radius: 50%;
     animation: loading 1s linear infinite;
 }
-
 @keyframes loading {
     from {
         transform: rotate(0deg);

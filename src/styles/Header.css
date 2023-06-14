@@ -1,41 +1,22 @@
 #header {
-    color: #001224;
+    color: #781D42;
     text-align: justify;
     box-shadow: 0px 10px 10px rgba(128, 128, 128, 0.492);
     position: relative;
     z-index: 1;
     padding: 7%;
-    background-color: #0093e9;
-    background-image: linear-gradient(135deg, #0093e9 0%, #80d0c7 100%);
-    background-color: #56ccf2;
+    background: rgb(255, 175, 189);
     background: linear-gradient(
-        125deg,
-        #2f80ed 15%,
-        #56ccf2 35%,
-        #56ccf2 65%,
-        #2f80ed
+        145deg,
+        rgba(255, 175, 189, 1) 10%,
+        rgba(255, 195, 160, 1) 50%,
+        rgba(255, 175, 189, 1) 90%
     );
-    background-size: 200% 200%;
-    animation: background-animation 8s infinite linear;
-}
-@keyframes background-animation {
-    0% {
-        background-position: 0% 0%;
-    }
-    50% {
-        background-position: 100% 100%;
-
-    }
-    100% {
-        background-position: 0% 0%;
-
-    }
-     
-    
 }
 
 #header .poster-wrapper {
     padding: 7%;
+    background-image: url("../../public/assets/images/bg-1.jpg");
     background-size: 100% 100%;
 }
 
@@ -45,7 +26,7 @@
     margin-bottom: 7%;
 }
 
-/* #header .text-wrapper {
+#header .text-wrapper {
     padding: 7%;
     background: rgb(77, 1, 53);
     background: linear-gradient(
@@ -54,7 +35,7 @@
         rgba(255, 0, 129, 1) 100%
     );
     text-shadow: 2px 2px 5px #000, 2px 2px 5px #000;
-} */
+}
 
 #header h3,
 #header h4 {
@@ -71,7 +52,7 @@
 
 /* New Mobile Phones Wide Screens */
 @media (max-width: 428px) {
-    #header {
+    #header { 
         padding: 17% 10% 10%;
     }
     #header .poster-wrapper {
